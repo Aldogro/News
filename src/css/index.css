@@ -5,7 +5,10 @@ body {
 }
 
 body {
-  background-color: #039be5;
+  background: linear-gradient(to bottom, rgba(214,233,240,1) 0%, rgba(113,206,239,1) 0%, rgba(214,244,255,1) 44%, rgba(214,244,255,1) 76%, rgba(232,249,255,1) 100%);
+}
+p{
+  font-family: Georgia;
 }
 .card-content h3 {
   font-size: 1.4rem;
@@ -21,6 +24,9 @@ body {
 }
 
 .buscador {
+  border: 1px solid rgba(128, 128, 128, 0.568);
+  border-radius: 5px;
+  background-color: rgb(183, 217, 233);
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: left;
@@ -33,13 +39,11 @@ body {
   color: black;
 }
 .select-wrapper input.select-dropdown:focus {
-  border-bottom: 1px solid #e64a19!important;
+  border-bottom: 1px solid #6461A0!important;
 }
 h2 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
-  font-size: 2rem;
-  text-transform: uppercase;
+  font-family: 'Georgia', sans-serif;
+  font-size: 3em;
   text-align: center;
 }
 .enviar input[type="submit"] {
