@@ -5,7 +5,7 @@ const Noticia = (props) => {
 
   return (
     <div className="col l4 s12">
-      <div className="card">
+      <div className="card hoverable">
         <div className="card-image">
           <img src={urlToImage} alt="{title}" style={{maxHeight:'150px', overflow: 'hidden'}}/>
           <span className="card-title" style={{backgroundColor : 'rgba(0,0,0,0.4)', width : '100%'}}>{source.name}</span>
@@ -13,7 +13,7 @@ const Noticia = (props) => {
         </div>
         <div className="card-content" style={{maxHeight:'200px', overflow: 'hidden'}}>
           <p><b>{title}</b></p>
-          <p>{description}</p>
+          <p className="truncate">{description}</p>
         </div>
       </div>
      
